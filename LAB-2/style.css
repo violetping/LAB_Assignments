@@ -1,0 +1,181 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Base Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #858080;
+  color: #333;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #004080;
+  color: rgb(237, 232, 232);
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+header p {
+  font-size: 1.1em;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  background: rgb(103, 100, 100);
+  color: rgb(238, 237, 237);
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #0066cc;
+}
+
+/* Section Spacing */
+section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgb(175, 185, 235);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+  color: #004080;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* About Section */
+figure {
+  text-align: center;
+}
+figure img {
+  width: 200px;
+  border-radius:50%;
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.2);
+}
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Projects List */
+ul {
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Skills Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+table th {
+  background-color: #004080;
+  color: white;
+}
+table tr:nth-child(odd) {
+  background-color: #b6a4e9;
+}
+table tr:nth-child(even) {
+  background-color: #a696d1;
+}
+
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label {
+  font-weight: bold;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0066cc;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #004080;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2em;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.back-to-top:hover {
+  background-color: #0066cc;
+}
+
+/* Footer */
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Horizontal Rule Styling */
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 40px 0;
+}
