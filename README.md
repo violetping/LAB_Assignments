@@ -1,5 +1,6 @@
 # LAB_Assignment
-
+  Name: Gaurav Kumar
+  Roll: 2501660010
 # Personal Portfolio Website
 
 This repository contains the completed Lab Assignments 1 and 2 for the Web Dev-I course. It showcases a one-page personal portfolio built using semantic HTML and styled with external CSS.
