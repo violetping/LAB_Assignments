@@ -6,17 +6,22 @@ This repository contains the completed Lab Assignments 1 and 2 for the Web Dev-I
 
 ## Project Overview
 
-The portfolio includes:
+### LAB 1 The portfolio:
 - A hero section with a welcome message
 - About section with profile image and bio
 - Projects section listing sample work
 - Skills section using a styled HTML table
 - Contact section with a functional form
 
-Lab 2 enhances the design using:
+#### Output
+  ![output of html file](images/output-1.jpg)
+
+### Lab 2 enhances the design using:
 - External CSS styling
 - Google Fonts integration
 - Color themes and layout spacing
 - Styled navigation, buttons, and tables
 - Responsive positioning and visual separators
 
+#### Output
+  ![output image of final css enhanced web page](output.jpg)
