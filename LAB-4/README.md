@@ -10,19 +10,27 @@
 
 # OUTPUT
 
-1. Paste the code from quiz.js to consol.
+### 1. Paste the code from quiz.js to consol.
 
-[](./images/paste2consol.png)
+![](./images/paste2consol.png)
 
-2. Give a reponse to the question. 
+### 2. Give a reponse to the question. 
 
-3. Output for a correct response.
+![](./images/question.png)
+![](./images/response.png)
 
-4. Output for an incorrect response.
+### 3. Output for incorrect response.
 
+![](./images/feedbackinc.png)
 
-5. Final score.
+### 4. Output for correct response.
 
+![](./images/correctans.png)
+![](./images/correctfeedback.png)
+
+### 5. Final score.
+
+![](./images/finalscore.png)
 
 
 ## Project Description

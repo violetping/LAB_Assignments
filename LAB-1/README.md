@@ -4,7 +4,7 @@
   Roll: 2501660010
 # Personal Portfolio Website
 
-This repository contains the completed Lab Assignments 1 and 2 for the Web Dev-I course. It showcases a one-page personal portfolio built using semantic HTML and styled with external CSS.
+This repository contains the completed Lab Assignments 1 for the Web Dev-I course. It showcases a one-page personal portfolio built using semantic HTML.
 
 ## Project Overview
 
@@ -16,5 +16,5 @@ This repository contains the completed Lab Assignments 1 and 2 for the Web Dev-I
 - Contact section with a functional form
 
 #### Output
-  ![output of html file](LAB-1/images/output-1.jpg)
+  ![output of html file](./images/output-1.jpg)
 

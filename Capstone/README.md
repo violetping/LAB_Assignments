@@ -8,7 +8,18 @@
 
 **Course:** BCA-CS  
 
+# OUTPUT
+## Check out the webpage
 
+
+## Website Overview 
+
+![](./images/Screenshot%202025-11-26%20205013.png)
+![](./images/Screenshot%202025-11-26%20205032.png)
+![](./images/Screenshot%202025-11-26%20205054.png)
+![](./images/Screenshot%202025-11-26%20205124.png)
+![](./images/Screenshot%202025-11-26%20205140.png)
+![](./images/Screenshot%202025-11-26%20205204.png)
 
 ## Project Description
 
@@ -18,7 +29,7 @@ A fully responsive static website for a Fintech Dashboard, showcasing UI for fin
 
 ## Features Implemented
 
-- Semantic structure: <header>, <nav>, <main>, <section>, <article>, <footer>.
+- Semantic structure: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
 
 - Responsive design: Mobile-first, with breakpoints at 768px (tablet: 2-column grids) and 1024px (desktop: 3-4 column grids).
 
@@ -55,12 +66,6 @@ A fully responsive static website for a Fintech Dashboard, showcasing UI for fin
 2. Open `index.html` in any modern browser (e.g., Chrome).
 
 3. Resize the window or use DevTools (F12 > Toggle device toolbar) to test responsiveness.
-
-- Optional: Deploy to GitHub Pages for live view.
-
-
-
-**Screenshots:** (Optional - add screenshot-desktop.png and screenshot-mobile.png to repo root)
 
 
 
