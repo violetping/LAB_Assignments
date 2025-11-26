@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinTech Dash - Smart Financial Services</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: var(--header-h); /* use CSS variable from stylesheet */
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Fixed Header -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">FinTech<span>Dash</span></h1>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#stats">Stats</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#transactions">Transactions</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO - Full Screen -->
+    <section id="hero" class="fullscreen section-bg" style="background-image: url('./images/team.png');">
+      <div class="overlay"></div>
+      <div class="container center-content">
+        <h2>Smart Financial Management</h2>
+        <h1>&#124     Simplified     &#124</h1>
+          <ul >
+            <li>Track transactions, gain insights, and manage your finances seamlessly.</li>
+            <li>Ensure seamless user experience across all devices, especially smartphones and tablets, as most users access fintech services on the go.</li>
+            <li>AI-driven real-time financial insights and personalized dashboards tailored to user behavior, goals, and transactions to increase user engagement.</li>
+          </ul>
+        
+        <div class="cta-buttons">
+          <a href="#pricing" class="btn primary">Get Started Free</a>
+          <a href="#features" class="btn secondary">See Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS - Full Screen -->
+    <section id="stats" class="fullscreen-section section-bg" style="background-image: url('https://images.unsplash.com/photo-1559526324-c1f166dafddb?q=80&w=2070&auto=format');">
+      <div class="overlay"></div>
+      <div class="container center-content">
+        <h2>Key Stats at a Glance</h2>
+        <div class="horizontal-scroll">
+          <div class="glass-card"><h3>$1.2M+</h3><p>Transactions Processed</p></div>
+          <div class="glass-card"><h3>98%</h3><p>Uptime Guarantee</p></div>
+          <div class="glass-card"><h3>50K+</h3><p>Active Users</p></div>
+          <div class="glass-card"><h3>24/7</h3><p>Support Available</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES - Full Screen -->
+    <section id="features" class="fullscreen-section">
+      <div class="container center-content">
+        <h2>Powerful Features for Modern Finance</h2>
+        <div class="horizontal-scroll">
+          <div class="glass-card feature-card">
+            <img src="./images/secure.png" alt="Secure" class="icon">
+            <h3>Secure Transactions</h3>
+            <p>End-to-end encryption for all your financial data.</p>
+          </div>
+          <div class="glass-card feature-card">
+            <img src="./images/api.jpeg" alt="API" class="icon">
+            <h3>API Integration</h3>
+            <p>Seamless connection with banking systems.</p>
+          </div>
+          <div class="glass-card feature-card">
+            <img src="./images/mobile.png" alt="Mobile" class="icon">
+            <h3>Mobile Access</h3>
+            <p>Manage finances on the go with our app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRANSACTIONS - Full Screen -->
+    <section id="transactions" class="fullscreen-section section-bg" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format');">
+      <div class="overlay"></div>
+      <div class="container center-content">
+        <h2>Recent Transactions</h2>
+        <div class="horizontal-scroll">
+          <div class="glass-card"><h3>Payment to Vendor</h3><p>$500 • Nov 25 • Completed</p></div>
+          <div class="glass-card"><h3>Salary Deposit</h3><p>$3000 • Nov 20 • Pending</p></div>
+          <div class="glass-card"><h3>Refund Processed</h3><p>$150 • Nov 18 • Completed</p></div>
+          <div class="glass-card"><h3>Investment Transfer</h3><p>$2000 • Nov 15 • Completed</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING - Full Screen -->
+    <section id="pricing" class="fullscreen-section">
+      <div class="container center-content">
+        <h2>Simple, Transparent Pricing</h2>
+        <div class="horizontal-scroll">
+          <div class="glass-card pricing-card">
+            <h3>Basic</h3>
+            <p class="price">$0<span>/month</span></p>
+            <ul><li>Basic Tracking</li><li>5 Transactions/mo</li><li>Email Support</li></ul>
+            <a href="#" class="btn">Sign Up</a>
+          </div>
+          <div class="glass-card pricing-card featured">
+            <h3>Pro</h3>
+            <p class="price">$19<span>/month</span></p>
+            <ul><li>Advanced Analytics</li><li>Unlimited Transactions</li><li>24/7 Support</li><li>API Access</li></ul>
+            <a href="#" class="btn primary">Get Started</a>
+          </div>
+          <div class="glass-card pricing-card">
+            <h3>Enterprise</h3>
+            <p class="price">$99<span>/month</span></p>
+            <ul><li>Custom Integrations</li><li>Dedicated Manager</li><li>Advanced Security</li></ul>
+            <a href="#" class="btn">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT - Full Screen -->
+    <section id="contact" class="fullscreen-section section-bg" style="background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format');">
+      <div class="overlay"></div>
+      <div class="container center-content">
+        <h2>Get in Touch</h2>
+        <form class="contact-form glass-card">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="your@email.com" required>
+          <textarea rows="5" placeholder="How can we help?" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 FinTech Dash by Gaurav Kumar (2501660010). All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
