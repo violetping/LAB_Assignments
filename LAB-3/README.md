@@ -1,72 +1,82 @@
-\# Web Dev I Lab Assignment 3 - Responsive Personal Portfolio Website
+# Web Dev I Lab Assignment 3 - Responsive Personal Portfolio Website
 
 
 
-\*\*Student Name:\*\* Gaurav Kumar  
+**Student Name:** Gaurav Kumar  
 
-\*\*Roll No:\*\* 2501660010  
+**Roll No:** 2501660010  
 
-\*\*Course:\*\* BCA-CS  
+**Course:** BCA-CS  
+
+# OUTPUT
+**Checkout the Webpage**
 
 
+**Website Overview**
 
-\## Project Description
+![](./images/Screenshot%202025-11-26%20203548.png)
+![](./images/Screenshot%202025-11-26%20203750.png)
+![](./images/Screenshot%202025-11-26%20203807.png)
+![](./images/Screenshot%202025-11-26%20203651.png)
+
+
+## Project Description
 
 A modern, fully responsive one-page portfolio website built using advanced CSS techniques including:
 
-\- Flexbox (Header, Hero, Footer)
+- Flexbox (Header, Hero, Footer)
 
-\- CSS Grid (Skills \& Projects sections)
+- CSS Grid (Skills & Projects sections)
 
-\- Media Queries (Mobile-first design)
+- Media Queries (Mobile-first design)
 
-\- Relative units (rem, %, vw)
+- Relative units (rem, %, vw)
 
-\- CSS Animations \& Transitions
+- CSS Animations & Transitions
 
-\- Hover effects with transforms
-
-
-
-\## Features Implemented
-
-\- Hero section with animated gradient text ("Full Stack Developer")
-
-\- Responsive layout (stacks on mobile, side-by-side on desktop)
-
-\- Flexbox used in header and hero
-
-\- CSS Grid for skills and projects cards
-
-\- Smooth hover effects and transitions
-
-\- Mobile-first responsive design
-
-\- Clean typography using Google Fonts (Poppins)
-
-\- Accessible skip link
+- Hover effects with transforms
 
 
 
-\## Breakpoints Tested
+## Features Implemented
 
-\- Mobile: < 768px (1-column layout)
+- Hero section with animated gradient text ("Full Stack Developer")
 
-\- Tablet: 768px – 1023px (2-column skills/projects)
+- Responsive layout (stacks on mobile, side-by-side on desktop)
 
-\- Desktop: ≥ 1024px (3-column skills, 2-column projects)
+- Flexbox used in header and hero
+
+- CSS Grid for skills and projects cards
+
+- Smooth hover effects and transitions
+
+- Mobile-first responsive design
+
+- Clean typography using Google Fonts (Poppins)
+
+- Accessible skip link
 
 
 
-\## How to View
+## Breakpoints Tested
 
-1\. Clone or download this repository
+- Mobile: < 768px (1-column layout)
 
-2\. Open `index.html` in any modern browser
+- Tablet: 768px – 1023px (2-column skills/projects)
 
-3\. Resize the window or use DevTools to test responsiveness
+- Desktop: ≥ 1024px (3-column skills, 2-column projects)
 
 
 
-\*\*Submitted for Lab Assignment 3 - CSS Advanced\*\*
+## How to View
+
+1. Clone or download this repository
+
+2. Open `index.html` in any modern browser
+
+3. Resize the window or use DevTools to test responsiveness
+
+
+
+**Submitted for Lab Assignment 3 - CSS Advanced**
 
