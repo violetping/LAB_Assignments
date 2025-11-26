@@ -1,0 +1,181 @@
+/* Body text color adjusted for better contrast */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+    135deg,
+    #1a004a 0%,   /* darker rich purple */
+    #5800c7 50%,  /* deeper bright violet */
+    #a14dff 100%  /* vivid light violet */
+  );
+  color: #e0d9ff; /* soft light violet for better readability */
+  line-height: 1.6;
+}
+
+/* Header with stronger deep blue background and bright white text */
+.header {
+  background-color: #230078; /* more vibrant deep indigo-purple */
+  color: #fafaff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.nav-links a {
+  color: #e0d9ff;  /* light violet */
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.nav-links a:hover {
+  background-color: #7721ff; /* glowing bright violet */
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 12px #7721ff;
+}
+
+/* Hero Section: deep blue-purple background with bright text */
+.hero {
+  background: linear-gradient(135deg, #34007a, #7b32ff);
+  padding: 4rem 0;
+  color: #f0e7ff; /* bright pale violet */
+  text-shadow: 0 0 5px rgba(123, 50, 255, 0.7);
+}
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: #d8b9ff;
+}
+.animated-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #6f00ff, #a85eff, #ff94ff);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: colorChange 5s ease-in-out infinite;
+  text-shadow: 0 0 15px #ff94ffaa;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #c3abff;
+}
+
+/* Buttons: bright violet with neon glow */
+.btn, .contact-form button {
+  background: linear-gradient(45deg, #7a00ff, #b54dff);
+  color: #fafaff;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 15px #b54dffcc;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.btn:hover, .contact-form button:hover {
+  box-shadow: 0 0 25px #ff8affee;
+  transform: translateY(-4px);
+  background: linear-gradient(45deg, #9b4dff, #e393ff);
+}
+
+/* Skill Cards: deep indigo background with bright text and glow on hover */
+.skill-card {
+  background: #2a007a;
+  color: #d8b9ff;
+  box-shadow: 0 0 10px #6b3aff9d;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px #9345ffbb;
+}
+.skill-card span {
+  color: #b88effaa;
+}
+
+/* Project Cards: light translucent violet background with strong violet headings */
+.project-card {
+  background: rgba(128, 74, 255, 0.12);
+  color: #efe7ff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(108, 54, 255, 0.15);
+  transition: transform 0.3s ease;
+}
+.project-card h3 {
+  color: #a03fff;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.project-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 40px #ba62ff;
+}
+
+/* Section headings more vivid and glowing */
+.section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #b854ff;
+  margin-bottom: 2rem;
+  position: relative;
+  text-shadow: 0 0 8px #aa55ffbb;
+}
+.section h2::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #a14cff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 12px #a14cffcc;
+}
+
+/* Contact Form Inputs with violet border and glow focus */
+.contact-form label {
+  font-weight: 600;
+  color: #b17aff;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 2px solid #6840d1;
+  border-radius: 0.5rem;
+  background: rgba(107, 58, 255, 0.07);
+  color: #e6dfff;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aa89ffcc;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #b54dff;
+  box-shadow: 0 0 8px #b54dffcc;
+}
+
+/* Footer */
+.footer {
+  background-color: #2a007a;
+  color: #e5dbff;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  text-align: center;
+}
+.social-links a {
+  color: #c199ff;
+  margin-left: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.social-links a:hover {
+  color: #ff94ff;
+}
