@@ -348,8 +348,26 @@ body {
 
   /* Header/nav adjustments */
   .header { padding: 0.6rem 0; }
-  .header-container { padding: 0 1rem; }
-  .nav-links { gap: 1rem; font-size: 0.95rem; flex-wrap: wrap; }
+  .header-container { flex-direction: column; align-items: center; gap: 0.25rem; padding: 0 1rem; }
+  .nav-links {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    list-style: none;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.5rem;
+    white-space: nowrap;
+  }
+  .nav-links li { display: inline-block; scroll-snap-align: center; }
+  .nav-links a { padding: 0.35rem 0.6rem; display: inline-block; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links { -ms-overflow-style: none; scrollbar-width: none; }
 
   /* Forms and footer */
   .contact-form { max-width: 95%; margin: 1rem auto; }
