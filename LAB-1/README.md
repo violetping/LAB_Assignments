@@ -15,6 +15,8 @@ This repository contains the completed Lab Assignments 1 for the Web Dev-I cours
 - Skills section using a styled HTML table
 - Contact section with a functional form
 
+### Checkout the Webpage
+https://violetping.github.io/LAB_Assignments/LAB-1/
 #### Output
   ![output of html file](./images/output-1.jpg)
 
